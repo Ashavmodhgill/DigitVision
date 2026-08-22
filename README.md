@@ -1,3 +1,5 @@
+<img width="1571" height="703" alt="Screenshot 2026-08-22 194623" src="https://github.com/user-attachments/assets/b6c9df12-8ee1-4116-8002-32cff12b193c" />
+
 # DigitVision
 
 DigitVision is an interactive handwritten-digit classifier built with PyTorch and Streamlit. Draw a digit on the canvas or upload an image, and the app preprocesses it into the MNIST format before predicting a class from 0 to 9.
