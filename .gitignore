@@ -1,0 +1,40 @@
+# Python environments and local tooling
+.venv/
+venv/
+env/
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Trained models and experiment outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+runs/
+outputs/
+
+# Downloaded datasets and archives
+Digit/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Notebook-generated files
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
